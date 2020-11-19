@@ -4,13 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- External CSS connection -->
+    <link rel="stylesheet" href="styling.css">
+
+    <!-- inline CSS -->
+    <style>
+
+      body {
+        background-color: peachpuff;
+        border: 4px solid blue;
+        border-radius: 15px;
+        /* font-size: 32px; */
+
+      }
+
+      section p:first-child, p:last-child {
+        color: default
+        ;
+      }
+
+
+    </style>
   </head>
   <body>
 
     <section>
       <p>This text has the default style from the browser</p>
       <p class="red">This text should use be red</p>
-      <p class="red is-big">
+      <p class="red-is-bigger">
         This text should be red and also be bigger
       </p>
       <p class="is-big">This text should look like the default one</p>

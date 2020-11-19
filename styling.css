@@ -1,0 +1,17 @@
+/* this is for a red paragraph */
+.red {
+    color: red;
+
+}
+
+/* bigger than default and red*/
+.red-is-bigger {
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+/* big as the default size */
+.is-big {
+    font-size: 1em;
+}
